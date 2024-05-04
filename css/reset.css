@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'pixel-art';
+    src: url(../Fontes/Micro5Charted-Regular.ttf);
+  
+    font-family: 'pixel-maior';
+    src: url(../Fontes/PixelifySans-VariableFont_wght.ttf);
+}
+
+h1{
+    font-family: 'pixel-art';
+}
+
+input{
+    text-align: center;
+    border-color:black;
+}
+
+button{
+    font-size: larger;
+    text-align: center;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    border:none;
+}
